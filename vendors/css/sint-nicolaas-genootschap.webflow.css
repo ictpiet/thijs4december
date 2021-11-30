@@ -1,0 +1,1427 @@
+.body {
+  margin-bottom: 0px;
+  background-color: #001f34;
+  background-image: url('../images/bg-optie1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+
+.menu-section {
+  position: relative;
+  top: 0px;
+  z-index: 0;
+  height: 330px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 48px;
+}
+
+.menu-container {
+  padding: 20px;
+}
+
+.logo-divblock {
+  width: 100%;
+  background-image: url('../images/logo2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo-linkblock {
+  display: block;
+  width: 470px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/logo2.png');
+  background-position: 50% 50%;
+  background-size: 180%;
+  background-repeat: no-repeat;
+}
+
+.logo-linkblock.w--current {
+  position: relative;
+  top: -42px;
+}
+
+.header-logo-section {
+  position: relative;
+  top: 19px;
+}
+
+.header-logo-container {
+  padding: 30px;
+}
+
+.navbar {
+  top: 45px;
+  bottom: 0px;
+  z-index: 99999;
+  height: 120px;
+  background-color: transparent;
+  background-image: url('../images/red-vaan-Omgezet.png');
+  background-position: 50% 24%;
+  background-size: 1175px 100px;
+  background-repeat: no-repeat;
+}
+
+.nav-menu {
+  z-index: 99999;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  float: none;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.nav-link {
+  position: static;
+}
+
+.nav-link {
+  padding: 18px 14px 10px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #efa6a5;
+  font-weight: 500;
+}
+
+.nav-link.w--current {
+  color: #efa6a5;
+  text-decoration: none;
+}
+
+.nav-link.dropdown {
+  position: relative;
+  top: -18px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.home-slider-section {
+  position: relative;
+  top: 0px;
+  margin-top: 0px;
+  border-top: 1px none #000;
+}
+
+.home-slider {
+  position: static;
+  display: block;
+  width: 100%;
+  height: 480px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+}
+
+.slider-1 {
+  background-image: url('../images/shutterstock_348543770.jpg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.slider-2 {
+  background-image: url('../images/shutterstock_512831263.jpg');
+  background-position: 50% 42%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.slider-3 {
+  background-image: url('../images/shutterstock_522781996.jpg');
+  background-position: 50% 32%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.slider-4 {
+  background-image: url('../images/shutterstock_700113808.jpg');
+  background-position: 40% -12%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cadeau-divblock {
+  position: relative;
+  top: -132px;
+  z-index: 9999;
+  display: block;
+  height: 250px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  background-image: url('../images/present-small.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cadeau-divblock.home {
+  top: 58px;
+  height: 230px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.countdown-section {
+  position: relative;
+  top: 101px;
+  height: 220px;
+}
+
+.countdown-divblock {
+  position: relative;
+}
+
+.h2 {
+  position: relative;
+  top: 0px;
+  display: block;
+  max-width: 711px;
+  margin: 0px auto 15px;
+  padding: 10px;
+  background-color: #fff;
+  font-family: Exo, sans-serif;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+}
+
+.h2.countdown {
+  position: relative;
+  top: 0px;
+  display: block;
+  max-width: 720px;
+  margin: 45px auto;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-top: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.countdown-html-embed {
+  display: block;
+  text-align: center;
+}
+
+.count-down-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.cadeau-section {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: justify;
+}
+
+.div-block {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-fivblock {
+  position: relative;
+  top: -8px;
+  display: block;
+  height: 100%;
+  max-width: 711px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.paragraph {
+  position: relative;
+  top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.paragraph.footer {
+  top: 0px;
+  padding: 0px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.paragraph.footer:hover {
+  color: #fff;
+}
+
+.paragraph.footer._2e {
+  margin-top: 0px;
+}
+
+.button {
+  display: block;
+  width: 237px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  background-color: #a81917;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: Exo, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #a81917;
+}
+
+.countdown-image {
+  position: relative;
+  top: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.elementsection {
+  position: relative;
+  top: 0px;
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  background-color: #a81917;
+  text-align: center;
+}
+
+.elementflexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 154px;
+  margin-bottom: 35px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+.element-link-block {
+  display: block;
+  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/potlood.png');
+  background-position: 50% 50%;
+  background-size: 94%;
+  background-repeat: no-repeat;
+}
+
+.element-link-block.tekeningen {
+  max-height: 150px;
+  max-width: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.element-link-block.knutselen {
+  max-height: 150px;
+  max-width: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/schaar.png');
+  background-size: 79%;
+  text-decoration: none;
+}
+
+.element-link-block.recepten {
+  max-height: 150px;
+  max-width: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/recepten.png');
+  background-size: 99%;
+  text-decoration: none;
+}
+
+.element-link-block.fotos {
+  max-height: 150px;
+  max-width: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/fotos.png/');
+  background-size: 91%;
+  text-decoration: none;
+}
+
+.element-link-block.nieus {
+  max-height: 150px;
+  max-width: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/nieuws.png');
+  background-size: 98%;
+  text-decoration: none;
+}
+
+.h3 {
+  position: static;
+  top: 192px;
+  right: 0px;
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0px 30px 10px 0px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  font-family: Exo, sans-serif;
+  color: #9d211f;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.h3.pietenkoor {
+  margin-top: 105px;
+}
+
+.h3.kerstman-vrouw {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.h3.footer {
+  color: #fff;
+}
+
+.h3.center {
+  margin-top: 62px;
+  text-align: center;
+}
+
+.footer-section {
+  position: relative;
+  top: 0px;
+  background-color: #6e100f;
+  font-weight: 500;
+}
+
+.footer-colomn-row {
+  display: block;
+}
+
+.footer-colomn {
+  padding: 20px;
+  background-color: transparent;
+}
+
+.footerlink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerlink:hover {
+  color: #faa;
+}
+
+.underfooter-section {
+  position: relative;
+  top: 0px;
+  background-color: #490504;
+}
+
+.under-footer-paragraph {
+  display: inline-block;
+  margin-top: 9px;
+  margin-right: 27px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.text-container {
+  position: relative;
+  top: 0px;
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding: 0px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .35), hsla(0, 0%, 100%, .35)), url('../images/shutterstock_364774676.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .35), hsla(0, 0%, 100%, .35)), url('../images/shutterstock_364774676.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 1000px;
+}
+
+.text-colomn-left {
+  margin-bottom: 0px;
+  padding: 60px 30px 30px;
+  background-color: transparent;
+}
+
+.vrijwilliger-list-item {
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-colomn-row {
+  position: relative;
+  top: -4px;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+.text-colomn-right {
+  margin-bottom: 0px;
+  padding: 60px 30px 30px;
+  background-color: transparent;
+}
+
+.form-textfield {
+  font-family: Exo, sans-serif;
+}
+
+.radio-button-field {
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-field-form {
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+}
+
+.text-field-form.text {
+  border-bottom: 0px none #000;
+  border-left: 1px none #000;
+  font-weight: 500;
+}
+
+.select-form-option {
+  font-family: Exo, sans-serif;
+}
+
+.aanmeld-button {
+  position: relative;
+  top: 14px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+  background-color: #a81917;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Exo, sans-serif;
+  text-transform: uppercase;
+}
+
+.aanmeld-button:hover {
+  background-color: #570f0e;
+}
+
+.aanmeld-button.gastenboek {
+  margin-bottom: 55px;
+}
+
+.aanmeld-button.aanmeld {
+  float: left;
+  font-size: 14px;
+}
+
+.image-divblock {
+  height: 280px;
+  margin-top: 15px;
+  background-image: url('../images/IMG_8320a-BorderMaker.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-text-block {
+  position: relative;
+  top: 0px;
+  display: block;
+  max-width: 714px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph-text {
+  margin-bottom: 0px;
+  padding: 0px;
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.paragraph-text.nextimage {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 268px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.paragraph-text.kerstman-vrouw {
+  padding-right: 38px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.paragraph-text.geschidenis {
+  margin-top: 83px;
+}
+
+.paragraph-text.gedrag {
+  margin-top: 30px;
+}
+
+.paragraph-text.contact {
+  margin-bottom: 10px;
+}
+
+.pietenkoor-afb-divblock {
+  height: 320px;
+  background-image: url('../images/shutterstock_318499082.jpg');
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+.h4 {
+  position: relative;
+  top: 156px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.afbdivblock {
+  background-image: url('../images/example-bg.png/');
+  background-position: 0px 0px;
+  background-size: 125px;
+}
+
+.afb-image {
+  position: relative;
+  width: 148px;
+  margin-bottom: 20px;
+}
+
+.afb-image.sint {
+  width: 394px;
+  margin-top: 35px;
+}
+
+.afb-image.right {
+  width: 144px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.sintopbezoek-afb {
+  margin-top: 36px;
+}
+
+.kerstman-image {
+  position: relative;
+  left: 0px;
+  display: block;
+  margin: 20px 0px 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.kerstman-image.small {
+  max-width: 50%;
+  margin-top: 16px;
+  margin-right: 0px;
+  padding-right: 4px;
+}
+
+.kerstman-image.right {
+  max-width: 102%;
+  margin-top: 17px;
+  margin-left: 0px;
+  padding-right: 20px;
+}
+
+.kerstman-image.left {
+  max-width: 107%;
+  padding-left: 20px;
+}
+
+.kerstman-image.middle {
+  right: 12px;
+  margin-left: 8px;
+}
+
+.container-2 {
+  position: relative;
+  top: 0px;
+  padding: 45px 30px 30px;
+  background-color: transparent;
+  background-image: url('../images/shutterstock_364774676.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+
+.gast-divblock {
+  display: block;
+  width: 500px;
+  height: 100%;
+  margin-top: 43px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.kado-divlock {
+  position: relative;
+  top: -41px;
+  z-index: 9999;
+  background-image: url('../images/present-small.png');
+  background-position: 50% 50%;
+  background-size: 14%;
+  background-repeat: no-repeat;
+}
+
+.datum-gast-text {
+  position: relative;
+  top: -12px;
+  font-family: Exo, sans-serif;
+  color: #450404;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+.message-text {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.next-gast-button {
+  display: block;
+  width: 12%;
+  margin-top: 26px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  background-color: #a81917;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Exo, sans-serif;
+  text-align: center;
+}
+
+.next-gast-button:hover {
+  background-color: #570f0e;
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.present-image {
+  position: relative;
+  top: -30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.leave-message-textfield {
+  display: block;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+}
+
+.leave-message-textfield.red {
+  background-color: #a81917;
+  color: #ff4a4a;
+}
+
+.submit-button {
+  clear: left;
+}
+
+.text-area-message {
+  display: block;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-area-message.red {
+  background-color: #a81917;
+}
+
+.text-message {
+  display: block;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+}
+
+.under-stroke-section {
+  position: relative;
+  top: 0px;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('../images/piet-opfiets-new.png'), url('../images/orange-vaan-Omgezet.png');
+  background-position: 86% 57%, 50% 50%;
+  background-size: 368px, 1125px 100px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.under-stroke-container {
+  margin-top: 0px;
+}
+
+.under-stroke-heading {
+  position: relative;
+  top: -80px;
+  margin-top: 60px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stroke-aanmeld-form {
+  position: relative;
+  top: -53px;
+  display: inline-block;
+  width: 550px;
+  margin-right: 111px;
+  margin-bottom: 0px;
+  margin-left: 83px;
+  background-color: hsla(0, 0%, 100%, .95);
+  font-family: Exo, sans-serif;
+}
+
+.submit-button-2 {
+  position: relative;
+  top: -51px;
+  height: 36px;
+  margin-left: -65px;
+  background-color: #a81917;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Exo, sans-serif;
+}
+
+.submit-button-2:hover {
+  background-color: #570f0e;
+}
+
+.h44 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: Exo, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.contact-image {
+  margin-top: 6px;
+}
+
+.nieuws-heading {
+  margin-top: 59px;
+  margin-bottom: 30px;
+  font-family: Exo, sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nieuws-heading.foto {
+  font-size: 32px;
+}
+
+.news-colomn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.news-colomn.under {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.news-left-colomn {
+  padding: 30px;
+}
+
+.news-right-colomn {
+  padding: 30px;
+}
+
+.news-middle-colomn {
+  padding: 30px;
+}
+
+.news-header {
+  font-family: Exo, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.news-header.big {
+  margin-left: 11px;
+}
+
+.news-image {
+  width: 248px;
+  margin-bottom: 12px;
+  padding: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+.news-image._5dec {
+  width: 247px;
+  height: 352px;
+}
+
+.kerstman-column-row {
+  margin-left: 0px;
+}
+
+.kerstman-colomns {
+  padding: 30px;
+}
+
+.kleurplaat-image {
+  padding: 0px 14px 16px;
+}
+
+.kleurplaat-image._5dec {
+  height: 350px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.bericht-form {
+  position: relative;
+  top: 24px;
+}
+
+.body-container {
+  position: relative;
+  top: 216px;
+  z-index: 0;
+  height: 600px;
+  background-color: hsla(0, 0%, 100%, .35);
+}
+
+.body-containers {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+  height: 100%;
+  padding-top: 70px;
+  background-color: #fff;
+  background-image: url('../images/shutterstock_364774676.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+
+.h3-footer {
+  font-family: Exo, sans-serif;
+  color: #fce7bf;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.important-text {
+  font-weight: 400;
+}
+
+.image-background-divblock {
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  background-image: url('../images/background-sintenpiet-short.jpg');
+  background-position: 0px 0px;
+  background-size: 1755px;
+}
+
+.light-box-llink {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.lightbox-image {
+  display: block;
+  margin: 12px auto 20px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.hidden {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.hidden-title {
+  position: relative;
+  top: 128px;
+  color: #fff;
+  text-align: center;
+}
+
+.receptenright-column {
+  height: 380px;
+  margin-top: 75px;
+  padding-right: 0px;
+  background-image: url('../images/pepernoot.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h3-recept {
+  padding-left: 30px;
+  font-family: Exo, sans-serif;
+  font-weight: 400;
+}
+
+.paragraph-receot {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  font-family: Exo, sans-serif;
+  font-size: 14px;
+}
+
+.field-label {
+  font-weight: 400;
+}
+
+.field-label-2 {
+  font-weight: 500;
+}
+
+.field-label-3 {
+  font-weight: 500;
+}
+
+.divblock-lightbox {
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+}
+
+.link-title-foto {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: Exo, sans-serif;
+  color: #570f0e;
+  text-decoration: none;
+}
+
+.div-block-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foto-divblock {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.album-image {
+  width: 235px;
+  margin-top: 8px;
+  margin-left: 0px;
+}
+
+.div-block-3 {
+  display: inline-block;
+}
+
+.div-block-4 {
+  display: inline-block;
+  width: 240px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.album-link-toalbum {
+  font-family: Exo, sans-serif;
+  color: #570f0e;
+  text-decoration: none;
+}
+
+.album-link-toalbum:hover {
+  color: #b82927;
+}
+
+.album-link-toalbum.w--current:hover {
+  color: #b82927;
+}
+
+.light-box-image {
+  margin-right: 15px;
+  margin-bottom: 32px;
+  margin-left: 15px;
+}
+
+.nav-link-dropdown {
+  top: -20px;
+  padding-right: 40px;
+}
+
+.text-nav-dropdown {
+  margin-right: 5px;
+}
+
+.icon {
+  top: 8px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.dropdown-link {
+  background-color: #791e1d;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #fff;
+}
+
+.dropdown-link:hover {
+  background-color: #570f0e;
+}
+
+.dropdown-link.w--current {
+  background-color: #902928;
+  color: #fff;
+}
+
+.gedrag-list-item {
+  font-family: Exo, sans-serif;
+  font-weight: 400;
+}
+
+.gedrag-listtext-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.gedragimage {
+  margin-top: 57px;
+}
+
+.dropdown-list.w--open {
+  width: 40px;
+}
+
+.sponsor-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.video-laatste-nieuws {
+  width: 208px;
+  height: 180px;
+}
+
+html.w-mod-js *[data-ix="hidden-div-on-load"] {
+  display: none;
+  opacity: 0;
+}
+
+@media (max-width: 991px) {
+  .paragraph.footer {
+    text-align: left;
+  }
+  .footer-colomn-row {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-colomn-row {
+    margin-bottom: 0px;
+  }
+  .paragraph-text.geschidenis {
+    margin-top: 113px;
+  }
+  .afb-image.sint {
+    margin-bottom: 0px;
+  }
+  .afb-image.right {
+    margin-left: 8px;
+  }
+  .under-stroke-section {
+    background-position: 102% 102%, 40% 61%;
+    background-size: 178px, 715px;
+  }
+  .stroke-aanmeld-form {
+    top: 0px;
+  }
+  .submit-button-2 {
+    top: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .body-containers {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .video-laatste-nieuws {
+    width: 158px;
+  }
+}
+
+@media (max-width: 767px) {
+  .underfooter-section {
+    padding-left: 20px;
+  }
+  .text-colomn-left {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .text-colomn-right {
+    padding-top: 0px;
+  }
+  .paragraph-text {
+    text-align: left;
+  }
+  .paragraph-text.geschidenis {
+    margin-top: 10px;
+  }
+  .afb-image.sint {
+    margin-bottom: 20px;
+  }
+  .kerstman-image.right {
+    max-width: 160px;
+  }
+  .kerstman-image.left {
+    max-width: 160px;
+  }
+  .under-stroke-section {
+    background-size: 145px, 535px;
+  }
+  .stroke-aanmeld-form {
+    top: -6px;
+    width: 393px;
+  }
+  .video-laatste-nieuws {
+    width: 108px;
+  }
+  .hamburger-menu {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 479px) {
+  .menu-section {
+    height: 250px;
+    padding-top: 28px;
+  }
+  .navbar {
+    background-size: auto 80px;
+  }
+  .text-colomn-left {
+    padding-top: 0px;
+  }
+  .paragraph-text._2 {
+    margin-bottom: 10px;
+  }
+  .afb-image.right {
+    margin-left: 0px;
+  }
+  .kerstman-image.right {
+    max-width: 260px;
+    margin-top: 0px;
+  }
+  .kerstman-image.left {
+    max-width: 240px;
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  .kerstman-image.middle {
+    max-width: 92%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .under-stroke-section {
+    background-position: 102% 102%, 47% 51%;
+    background-size: 145px, 305px;
+  }
+  .under-stroke-heading {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 19px;
+  }
+  .stroke-aanmeld-form {
+    top: -15px;
+    width: 203px;
+    height: 20px;
+    margin-right: 0px;
+    margin-left: 54px;
+    font-size: 10px;
+  }
+  .submit-button-2 {
+    top: -3px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .body-containers {
+    padding-top: 10px;
+  }
+}
+
