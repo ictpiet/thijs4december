@@ -78,7 +78,7 @@
 			</div>
 		</div>
 
-		<h2 class="countdown h2">AANTAL NACHTJES TOT PAKJESAVOND</h2>
+		<!-- <h2 class="countdown h2">AANTAL NACHTJES TOT PAKJESAVOND</h2>
 		<div class="countdown_wrapper" id="countdown_it">
 			<div class="digit">
 				<div class="number countdown_days">0</div>
@@ -95,72 +95,54 @@
 		</div>
 		<script type="text/javascript">
 
-			var dates = {
-				'it': {
-					date: new Date("November 17 " + (new Date()).getFullYear()).getTime(),
-					elements: {
-						days: document.querySelectorAll('#countdown_pa .countdown_days')[0],
-						hours: document.querySelectorAll('#countdown_pa .countdown_hours')[0],
-						minutes: document.querySelectorAll('#countdown_pa .countdown_mins')[0]
-					},
-					ch: null,
-				},
-				'pa': {
-					date: new Date("December 5 " + (new Date()).getFullYear()).getTime(),
-					elements: {
-						days: document.querySelectorAll('#countdown_it .countdown_days')[0],
-						hours: document.querySelectorAll('#countdown_it .countdown_hours')[0],
-						minutes: document.querySelectorAll('#countdown_it .countdown_mins')[0]
-					},
-					ch: null,
-				}
-			};
 
-			function updateTime(handle) {
-				// Get todays date and time
-				var now = new Date().getTime();
+			var countdown_days = 6 -->
+		<!-- // var dates = {
+		// 'it': {
+		// date: new Date("November 17 " + (new Date()).getFullYear()).getTime(),
+		// elements: {
+		// days: document.querySelectorAll('#countdown_pa .countdown_days')[0],
+		// hours: document.querySelectorAll('#countdown_pa .countdown_hours')[0],
+		// minutes: document.querySelectorAll('#countdown_pa .countdown_mins')[0]
+		// },
+		// ch: null,
+		// },
+		// 'pa': {
+		// date: new Date("December 5 " + (new Date()).getFullYear()).getTime(),
+		// elements: {
+		// days: document.querySelectorAll('#countdown_it .countdown_days')[0],
+		// hours: document.querySelectorAll('#countdown_it .countdown_hours')[0],
+		// minutes: document.querySelectorAll('#countdown_it .countdown_mins')[0]
+		// },
+		// ch: null,
+		// }
+		// };
 
-				// Find the distance between now an the count down date
-				var distance = dates[handle].date - now;
+		// function updateTime(handle) {
+		// // Get todays date and time
+		// var now = new Date().getTime();
+
+		// // Find the distance between now an the count down date
+		// var distance = dates[handle].date - now;
 
 
-				// Time calculations for days, hours, minutes and seconds
-				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		// // Time calculations for days, hours, minutes and seconds
+		// var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		// var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		// var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-				// If the count down is over, write some text
-				if (distance < 0) {
-					clearInterval(dates[handle].ch);
-					days = 0;
-					hours = 0;
-					minutes = 0;
-				}
-
-				dates[handle].elements.days.innerText = days;
-				dates[handle].elements.hours.innerText = hours;
-				dates[handle].elements.minutes.innerText = minutes;
-			}
-
-			// Update the count down every 1 second
-			dates['pa'].ch = setInterval(function () {
-				updateTime('pa');
-			}, 1000);
-
-			// Update the count down every 1 second
-			dates['it'].ch = setInterval(function () {
-				updateTime('it');
-			}, 1000);
-
-			updateTime('it');
-			updateTime('pa');
-
-		</script>
+		// // If the count down is over, write some text
+		// if (distance < 0) { // clearInterval(dates[handle].ch); // days=0; // hours=0; // minutes=0; // } //
+			dates[handle].elements.days.innerText=days; // dates[handle].elements.hours.innerText=hours; //
+			dates[handle].elements.minutes.innerText=minutes; // } // // Update the count down every 1 second //
+			dates['pa'].ch=setInterval(function () { // updateTime('pa'); // }, 1000); // // Update the count down every
+			1 second // dates['it'].ch=setInterval(function () { // updateTime('it'); // }, 1000); // updateTime('it');
+			// updateTime('pa'); </script> -->
 		<div class="cadeau-divblock home"></div>
 	</div>
 	<div class="under-stroke-section" id="newsletter">
 		<div class="under-stroke-container w-container">
-			<h3 class="under-stroke-heading">Een terugkijkje op het jaar<br><br><br></h3>
+			<h3 class="under-stroke-heading"><br><br><br><br></h3>
 			<div class="newsletter_message empty">&nbsp;</div>
 
 		</div>
